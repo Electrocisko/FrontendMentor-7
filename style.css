@@ -1,0 +1,93 @@
+/* ---------variables ------------ */
+:root {
+    /* text */
+    --color-Very-dark-desaturated-blue: hsl(238, 29%, 16%);
+    --color-Soft-red: hsl(14, 88%, 65%);
+    /* gradients */
+    --color-Soft-violet: hsl(273, 75%, 66%);
+    --color-Soft-blue: hsl(240, 73%, 65%);
+
+    --color-Very-dark-grayish-blue: hsl(237, 12%, 33%);
+    --color-Dark-grayish-blue: hsl(240, 6%, 50%);
+    --color-Light-grayish-blue: hsl(240, 5%, 91%);
+
+
+    --mobile: 375px;
+    --desktop: 1440px;
+}
+
+/* ------Reset Styles ------- */
+html {
+    box-sizing: border-box;
+    font-size: 12px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-Soft-blue);
+}
+
+.container {
+    background-color: var(--color-Light-grayish-blue);
+    background-image: url("./images/bg-pattern-desktop.svg");
+    display: flex;
+    width: 860px;
+    height: 450px;
+    border-radius: 15px;
+    overflow: hidden    ;
+}
+
+.container-picture{
+    width: 430px;
+}
+
+.faq-container {
+    width: 430px;
+}
+
+.picture{
+    position: relative;
+    right: 70px;
+    top: 50px;
+}
+
+.box {
+    position:absolute;
+    left: 150px;
+    top: 320px;
+    z-index: 5;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -46,7 +46,6 @@ body{
 
 .container {
     background-color: var(--color-Light-grayish-blue);
-    background-image: url("./images/bg-pattern-desktop.svg");
     display: flex;
     width: 860px;
     height: 450px;
@@ -56,6 +55,8 @@ body{
 
 .container-picture{
     width: 430px;
+    background-image: url("./images/bg-pattern-desktop.svg");
+    background-size: contain;
 }
 
 .faq-container {
@@ -71,7 +72,7 @@ body{
 .box {
     position:absolute;
     left: 150px;
-    top: 320px;
+    top: 250px;
     z-index: 5;
 }
 

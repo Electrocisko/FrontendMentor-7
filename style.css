@@ -113,7 +113,7 @@ body{
     display: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 721px) {
 
     .container-desktop-picture{
         display: none;

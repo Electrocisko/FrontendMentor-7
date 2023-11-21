@@ -42,9 +42,13 @@ h1 {
     margin-bottom: 2rem;
 }
 
-body{
-    /* height: 100vh; */
+h2 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
 
+body{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -71,6 +75,7 @@ body{
 .faq-container {
     width: 430px;
     margin-top: 2rem;
+    margin-right: 4rem;
 }
 
 .picture{
@@ -84,6 +89,24 @@ body{
     left: 150px;
     top: 250px;
     z-index: 5;
+}
+
+.question-container{
+    border-bottom: solid grey 1px;
+}
+
+.answer{
+    display: none;
+}
+
+.active {
+    font-weight: 700;
+}
+
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 @media (max-width: 375px) {

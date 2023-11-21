@@ -35,8 +35,16 @@ html {
     font-weight: normal;
 }
 
+h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 body{
-    height: 100vh;
+    /* height: 100vh; */
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,6 +53,7 @@ body{
 }
 
 .container {
+    margin-top: 6rem;
     background-color: var(--color-Light-grayish-blue);
     display: flex;
     width: 860px;
@@ -61,6 +70,7 @@ body{
 
 .faq-container {
     width: 430px;
+    margin-top: 2rem;
 }
 
 .picture{
@@ -75,6 +85,24 @@ body{
     top: 250px;
     z-index: 5;
 }
+
+@media (max-width: 375px) {
+
+.container-picture{
+display: none;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }

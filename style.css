@@ -66,7 +66,7 @@ body{
     overflow: hidden    ;
 }
 
-.container-picture{
+.container-desktop-picture{
     width: 430px;
     background-image: url("./images/bg-pattern-desktop.svg");
     background-size: contain;
@@ -111,7 +111,7 @@ body{
 
 @media (max-width: 375px) {
 
-.container-picture{
+.container-desktop-picture{
 display: none;
 }
 

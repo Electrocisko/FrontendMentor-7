@@ -109,14 +109,29 @@ body{
     align-items: center;
 }
 
+.mobil-picture{
+    display: none;
+}
+
 @media (max-width: 375px) {
 
-.container-desktop-picture{
-display: none;
-}
+    .container-desktop-picture{
+        display: none;
+    }
+
+    .mobil-picture{
+        display: block;
+        position: absolute;
+        width: 250px;
+        top: 0px;
+        right: 60px;
+
+    }
+
 
 .container {
     width: 340px;
+    margin-top: 9rem;
 }
 
 .faq-container {

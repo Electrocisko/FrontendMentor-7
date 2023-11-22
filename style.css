@@ -21,6 +21,7 @@ html {
     box-sizing: border-box;
     font-size: 12px;
     font-family: 'Kumbh Sans', sans-serif;
+    height: 100vh;
 }
 
 *,
@@ -53,7 +54,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--color-Soft-violet);
+    background: linear-gradient( hsl(273, 75%, 66%),hsl(240, 73%, 65%));
 }
 
 .container {
@@ -64,6 +65,7 @@ body {
     height: 450px;
     border-radius: 15px;
     overflow: hidden;
+
 }
 
 .faq-container {
@@ -117,6 +119,11 @@ body {
 
 
 @media (max-width: 375px) {
+
+    html {
+        height: 750px;
+    }
+
     .container-mobil-picture {
         display: block;
         height: 120px;
@@ -132,7 +139,7 @@ body {
         margin-left: 15px;
         margin-right: 15px;
         margin-top: 180px;
-        width: 340px;
+        width: 300px;
         height: fit-content;
         overflow: visible;
     }

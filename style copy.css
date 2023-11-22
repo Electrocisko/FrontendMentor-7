@@ -78,13 +78,13 @@ body {
     background-size: contain;
 }
 
-.desktop-picture {
+.picture {
     position: relative;
     right: 70px;
     top: 50px;
 }
 
-.desktop-picture-box {
+.box {
     position: absolute;
     left: 150px;
     top: 250px;
@@ -111,57 +111,38 @@ body {
 
 
 .container-mobil-picture {
-    display: none;
-
+ display: none;
 }
 
-
 @media (max-width: 375px) {
-    .container-mobil-picture {
-        display: block;
-        height: 120px;
-        position: relative;
-    }
 
     .container-desktop-picture {
         display: none;
     }
 
-    .container {
+    .container-mobil-picture {
         display: block;
-        margin-left: 15px;
-        margin-right: 15px;
-        margin-top: 180px;
+        width: 250px;
+       }
+
+    .container {
         width: 340px;
-        height: fit-content;
-        overflow: visible;
-    }
-
-    .question-container {
-        display: flex;
         flex-direction: column;
+        /* flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 340px;
+        margin-top: 9rem;
+        overflow: visible; */
     }
-
 
     .faq-container {
-        width: auto;
-        margin-left: 2rem;
-        margin-right: 2rem;
-        margin-top: 0%;
-        height: 320px;
-
-    }
-
-    .mobil-picture {
-        position: absolute;
-        top: -145px;
-    }
-
-    h1 {
-        text-align: center;
+        width: 430px;
+        margin: 2rem;
     }
 
 }
+
 
 
 
